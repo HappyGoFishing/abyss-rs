@@ -1,0 +1,15 @@
+[package]
+name = "abyss"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "abyssd"
+path = "src/abyssd/main.rs"
+
+[[bin]]
+name = "abyssctl"
+path = "src/abyssctl/main.rs"
+
+[dependencies]
+nix = "0.30.1"
