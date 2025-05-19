@@ -5,11 +5,11 @@ edition = "2024"
 
 [[bin]]
 name = "abyssd"
-path = "src/abyssd/main.rs"
+path = "src/daemon/main.rs"
 
 [[bin]]
 name = "abyssctl"
-path = "src/abyssctl/main.rs"
+path = "src/client/main.rs"
 
 [dependencies]
 nix = "0.30.1"
